@@ -1,0 +1,3 @@
+friends = Array["Agnes", "Agatha", "Germaine", "Jack"]
+puts friends [0]
+"grabs first string"
