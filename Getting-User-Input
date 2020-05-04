@@ -1,0 +1,8 @@
+Getting User Input
+puts "Enter your name: "
+name = gets.chomp()
+puts "Enter your age: "
+age = gets.chomp()
+puts ("Hello " + name + ", you are " + age)
+
+P.S. Needs Terminal
