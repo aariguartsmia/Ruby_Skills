@@ -1,0 +1,26 @@
+Getting User Input
+puts "Enter your name: "
+name = gets.chomp()
+puts "Enter your age: "
+age = gets.chomp()
+puts ("Hello " + name + ", you are " + age)
+
+Building a calculator
+puts "Enter a number: "
+num1 = gets.chomp().to_f
+puts "Enter another number: "
+num2 = gets.chomp().to_f
+
+puts (num1 + num2)
+
+Building a mad libs game
+puts "Enter a color: "
+color = gets.chomp ()
+puts "Enter a Plural noun: "
+plural_noun = gets.chomp ()
+puts "Enter a celebrity: "
+celebrity = gets.chomp ()
+
+puts ("Roses are " + color)
+puts (plural_noun + " are blue")
+puts ("I love " + celebrity)
